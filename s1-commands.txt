@@ -1,0 +1,4 @@
+table_add ipv4_lpm set_nhop 192.168.10.52 => 00:00:c0:a8:0a:34	1
+table_add ipv4_lpm set_nhop 103.232.241.13 => 00:00:67:e8:f1:0d	    2
+table_add src_nat src_map 192.168.10.52 => 103.232.241.15   
+table_add dst_nat dst_map 103.232.241.15  => 192.168.10.52
